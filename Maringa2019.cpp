@@ -15,7 +15,7 @@ int main()
 
     //{Processamentos dos dados}
     PercM = ((HAB - MULHER) / HAB) * 100; // % de homens
-    PercF = 1 - PercM; //% de mulheres
+    PercF = 100 - PercM; //% de mulheres
     VeiHab = VEICULO / HAB; //razão: veículos por habitante
 
     //{Saída das informações}
